@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(85, 85, 85);
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.userInfo{
+    width: 400px;
+    height: 400px;
+    max-width: 600px;
+    min-width: 200px;
+    background-image: url('/style/img/57_e4fbdf187dc696968c4842210b723e61.jpeg');
+    display: flex;
+    background-repeat: no-repeat;
+    justify-content: flex-end;
+    border-radius: 15px;
+    z-index: 3;
+    background-size: cover;
+    background-position: center;
+    color: rgb(184, 184, 184);
+    text-align: center;
+}
+.userName{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 24px;
+    margin: 5px;
+    margin-top: 330px;
+    letter-spacing: 5px;
+}
+.userProf{
+    margin: 7px;
+    color: gray
+}
+.userStats{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    border-radius: 15px;
+    background: linear-gradient(to bottom, rgb(77, 79, 84), rgb(236, 237, 237));
+    width: 300px;
+    height: 70px;
+    margin: -10px;
+    z-index: 2;
+}
+.userStatItem{
+    margin-top: 15px;
+}
+.userstatvalue{
+    font-size: 25px;
+}
+.userstatname{
+    font-weight: lighter;
+    font-size: small;
+}
+button{
+    background: linear-gradient(to bottom, rgb(122, 115, 24), rgb(226, 193, 47));
+    border-radius: 15px;
+    z-index: 1;
+    text-align: center;
+    width: 230px;
+    height: 60px;
+    cursor: pointer;
+}
+button p{
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 15px;
+    color: honeydew;
+}
